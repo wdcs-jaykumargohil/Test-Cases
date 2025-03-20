@@ -26,12 +26,12 @@ Create a file named **`jest-e2e.json`** in the root directory and add the follow
 
 Modify the `scripts` section in `package.json` to add a test command:
 
-```json
+```ts
 "scripts": {
-  // ...
+  ...
     "test:e2e": "jest --config ./jest-e2e.json",
     "test:e2e:cov": "jest --config ./jest-e2e.json --coverage",
-  // ...
+  ...
 }
 ```
 

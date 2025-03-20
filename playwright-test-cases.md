@@ -33,12 +33,12 @@ npx playwright install
 
 Modify the `scripts` section in `package.json` to add a test command:
 
-```json
+```ts
 "scripts": {
-  // ...
+  ...
   "test:playwright": "npx playwright test --headed"
   "test:playwright:one-by-one": "npx playwright test --headed --workers=1"
-  // ...
+  ...
 }
 ```
 
