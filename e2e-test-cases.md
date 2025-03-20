@@ -1,3 +1,5 @@
+## 📄 Go => **[`README.md`](./README.md)**
+
 # Frontend Test Cases with e2e
 
 This guide will help you set up and run backend test cases using e2e.
@@ -144,7 +146,9 @@ Run the test using either of the following commands:
 ```sh
 yarn run test:e2e
 ```
+
 or
+
 ```sh
 npm run test:e2e
 ```
