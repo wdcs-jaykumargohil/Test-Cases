@@ -39,6 +39,14 @@ npx playwright test --debug
 ### **E2E Tests**
 For running E2E test cases, follow the steps in `e2e-test-cases.md`.
 
+```sh
+yarn run test:e2e
+```
+or
+```sh
+npm run test:e2e
+```
+
 ---
 
 ## 📌 Project Structure

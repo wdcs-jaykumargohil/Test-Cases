@@ -109,6 +109,8 @@ Run the test using either of the following commands:
 
 ```sh
 yarn run test:playwright
+```
 or
+```sh
 npm run test:playwright
 ```

@@ -143,6 +143,8 @@ Run the test using either of the following commands:
 
 ```sh
 yarn run test:e2e
+```
 or
+```sh
 npm run test:e2e
 ```
