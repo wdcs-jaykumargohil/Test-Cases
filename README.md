@@ -90,3 +90,9 @@ npm run test:e2e
 - **Easy-to-follow commands** for running tests.
 - **Project structure visualization** for better understanding.
 - **Best practices section** for maintaining high-quality tests.
+
+## 📹 Demo Video
+
+Click the link below to watch the demo:
+
+[🎥 Watch Demo Video](./demo-video.mp4)
