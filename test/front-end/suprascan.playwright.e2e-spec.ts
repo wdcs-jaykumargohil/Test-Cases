@@ -4,6 +4,9 @@ test('E2E test for searching transaction on Suprascan', async ({ page }) => {
   await page.goto('https://suprascan.io/');
 
   await page.waitForTimeout(1000);
+  await page.locator('svg.block.rounded-full.border').click();
+  await page.waitForTimeout(1000);
+
   // Click the first "Blockchain" link
   await page.locator('a:text("Blockchain")').first().click();
 
