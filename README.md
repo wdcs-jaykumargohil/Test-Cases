@@ -63,11 +63,9 @@ npm run test:e2e
  ┣ 📂 test/                # Test files directory
  ┃ ┣ 📜 suprascan.playwright.e2e-spec.ts   # Sample Playwright test
  ┃ ┣ 📜 rest-api.functional.e2e-spec.ts   # Sample Rest API test
- ┣ 📜 playwright-test-cases.md  # Playwright test documentation
- ┣ 📜 e2e-test-cases.md         # E2E test documentation
  ┣ 📜 playwright.config.ts      # Playwright configuration file
- ┣ 📜 package.json              # Project dependencies & scripts
- ┗ 📜 README.md                 # This file
+ ┣ 📜 jest-e2e.json             # E2E configuration file
+ ┗ 📜 package.json              # Project dependencies & scripts
 ```
 
 ---
