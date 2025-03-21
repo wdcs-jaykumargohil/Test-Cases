@@ -27,7 +27,7 @@ test('E2E test for searching transaction on Suprascan', async ({ page }) => {
     await page.screenshot({ path: `${screenshotDir}/Step 1 - Start: Go to website.png`, fullPage: true });
     await page.locator('svg.block.rounded-full.border').click();
     await page.waitForTimeout(waitTimeout); // It's Optional
-    await page.screenshot({ path: `${screenshotDir}/Step 2 - Theme change.png`, fullPage: true });
+    await page.screenshot({ path: `${screenshotDir}/Step 2 - Change theme to dark mode.png`, fullPage: true });
 
     // Click the first "Blockchain" link
     await page.locator('a:text("Blockchain")').first().click();
