@@ -19,6 +19,7 @@ describe('AppController', () => {
 
   it('should be defined', () => {
     expect(appController).toBeDefined();
+    expect(appService).toBeDefined();
   });
 
   it('should add a cat', () => {
